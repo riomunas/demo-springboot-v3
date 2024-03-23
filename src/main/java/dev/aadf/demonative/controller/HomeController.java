@@ -11,6 +11,7 @@ public class HomeController {
   record Person(String name, String gender, String dateOfBirth) {}
   @GetMapping("/hello")
   public Person hello() {
-    return new Person("Adam", "male", "1984-06-17");
+//    return new Person("Adam", "male", "1984-06-17");
+    return new Person("Eve", "female", "1984-06-17");
   }
 }
